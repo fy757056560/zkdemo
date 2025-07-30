@@ -1,0 +1,7 @@
+C:\Users\admin>java -jar ZKEM4J-1.0-SNAPSHOT-jar-with-dependencies.jar
+1 > ???? ???????
+1 > ??? ????
+Exception in thread "main" java.lang.NullPointerException
+        at ps.purelogic.zkem4j.Test.prepare(Test.java:37)
+        at ps.purelogic.zkem4j.Test.<init>(Test.java:24)
+        at ps.purelogic.zkem4j.Test.main(Test.java:46)
