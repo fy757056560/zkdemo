@@ -1,0 +1,77 @@
+C:\Users\admin\Desktop\ZKEMJavaPort-Fixed>java -cp "target/classes;target/dependency/*" ps.purelogic.zkem4j.AttendanceTest
+=== 考勤机连接测试 ===
+设备型号: nFace102-s
+指纹算法: ZKFingervx10.0
+平台信息: ZMM510_TFT
+固件版本: ZMM50-NF-Ver1.0.25
+IP地址: 192.168.10.180
+通讯密码: 202306
+机号: 107
+
+Exception in thread "main" java.lang.NoClassDefFoundError: com4j/Com4jObject
+        at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+        at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1016)
+        at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:174)
+        at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:802)
+        at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:700)
+        at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:623)
+        at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+        at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+        at com.fingerprints.ClassFactory.createCZKEM(ClassFactory.java:16)
+        at ps.purelogic.zkem4j.AttendanceTerminal.initializeTerminalConnector(AttendanceTerminal.java:147)
+        at ps.purelogic.zkem4j.AttendanceTerminal.<init>(AttendanceTerminal.java:69)
+        at ps.purelogic.zkem4j.AttendanceTest.prepare(AttendanceTest.java:41)
+        at ps.purelogic.zkem4j.AttendanceTest.<init>(AttendanceTest.java:26)
+        at ps.purelogic.zkem4j.AttendanceTest.main(AttendanceTest.java:142)
+Caused by: java.lang.ClassNotFoundException: com4j.Com4jObject
+        at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:583)
+        at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+        at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+        ... 15 more
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
